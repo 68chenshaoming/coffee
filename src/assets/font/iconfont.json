@@ -1,0 +1,205 @@
+{
+  "id": "3963062",
+  "name": "coffee",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "57368",
+      "name": "天猫-门店自提",
+      "font_class": "tianmaomendianziti",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "1380045",
+      "name": "外卖",
+      "font_class": "icon-test",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "6364167",
+      "name": "二维码",
+      "font_class": "ico",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "201692",
+      "name": "3.1 好友",
+      "font_class": "31haoyou",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "765849",
+      "name": "地址",
+      "font_class": "shouye1",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "2076258",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e88f",
+      "unicode_decimal": 59535
+    },
+    {
+      "icon_id": "3759060",
+      "name": "就业协议",
+      "font_class": "jiuyexieyi",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "8941147",
+      "name": "卡券",
+      "font_class": "qiaquan",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "12430824",
+      "name": "dc-icon-现行政策条款",
+      "font_class": "dc-icon-xianhangzhengcetiaokuan",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "24111530",
+      "name": "积分兑换",
+      "font_class": "jifenduihuan",
+      "unicode": "fab3",
+      "unicode_decimal": 64179
+    },
+    {
+      "icon_id": "26212904",
+      "name": "理财-存钱罐",
+      "font_class": "licai-cunqianguan",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "1077",
+      "name": "食物",
+      "font_class": "shiwu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "145713",
+      "name": "礼品_填充",
+      "font_class": "lipintianchong",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "201228",
+      "name": "3.1我的",
+      "font_class": "31wode",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "201586",
+      "name": "3.1优惠券",
+      "font_class": "31hongbao",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "629343",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "1048328",
+      "name": "余额",
+      "font_class": "yue",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "2932869",
+      "name": "饮料",
+      "font_class": "yinliao",
+      "unicode": "e80f",
+      "unicode_decimal": 59407
+    },
+    {
+      "icon_id": "5054873",
+      "name": "咖啡",
+      "font_class": "kafei",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "5076625",
+      "name": "吐司",
+      "font_class": "tusi",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "5113711",
+      "name": "咖啡",
+      "font_class": "kafei1",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "5440929",
+      "name": "创意",
+      "font_class": "chuangyi",
+      "unicode": "e6db",
+      "unicode_decimal": 59099
+    },
+    {
+      "icon_id": "6129156",
+      "name": "115订单、订单明细、收支明细-线性",
+      "font_class": "dingdandingdanmingxishouzhimingxi-xianxing",
+      "unicode": "e789",
+      "unicode_decimal": 59273
+    },
+    {
+      "icon_id": "6265091",
+      "name": "积分",
+      "font_class": "bonus-line",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "13084179",
+      "name": "玫瑰花",
+      "font_class": "meiguihua",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "14852473",
+      "name": "袋装咖啡豆",
+      "font_class": "daizhuangkafeidou",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "19055749",
+      "name": "桂花",
+      "font_class": "guihua",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "27285479",
+      "name": "热销",
+      "font_class": "a-ziyuan679",
+      "unicode": "e797",
+      "unicode_decimal": 59287
+    }
+  ]
+}

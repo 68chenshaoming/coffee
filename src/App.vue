@@ -1,30 +1,59 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+	<div id="app">
+		<router-view v-slot="{ Component }">
+			<transition :name="transitionName">
+				<keep-alive exclude="CheckOrder,Address,AddAddress,EditAddress,OrderDetail">
+					<component :is="Component"></component>
+				</keep-alive>
+			</transition>
+		</router-view>
+	</div>
 </template>
-
-<style lang="scss">
+<script setup>
+import { ref, watch, provide } from "vue";
+import { useRoute } from "vue-router";
+const route = useRoute();
+let transitionName = ref("slide");
+let currentIndex = route.meta.index;
+watch(route, () => {
+	transitionName.value = currentIndex < route.meta.index ? "left" : "right";
+	currentIndex = route.meta.index;
+});
+document.addEventListener("contextmenu", e => e.preventDefault());
+provide("baseUrl", "http://127.0.0.1:3000");
+</script>
+<style lang="scss" scoped>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+.left-enter-from {
+	transform: translateX(100%);
 }
 
-nav {
-  padding: 30px;
+.left-leave-to {
+	transform: translateX(0%);
+}
+.left-enter-active,
+.left-leave-active {
+	transition: all 200ms;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.right-enter-from {
+	transform: translateX(-100%);
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+.right-leave-to {
+	transform: translateX(0%);
+}
+.right-enter-active,
+.right-leave-active {
+	transition: all 200ms;
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
 </style>
